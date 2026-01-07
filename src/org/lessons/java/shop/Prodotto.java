@@ -5,11 +5,11 @@ import java.math.RoundingMode;
 import java.util.Random;
 
 public class Prodotto {
-    public int codice;
-    public String nome;
-    public String descrizione;
-    public double prezzo;
-    public double iva;
+    private int codice;
+    private String nome;
+    private String descrizione;
+    private double prezzo;
+    private double iva;
 
     public Prodotto(String nome, String descrizione, double prezzo) {
         this.codice = codiceRandom();
